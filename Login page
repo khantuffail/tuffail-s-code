@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>login page</title>
+  <style>
+    body{
+     background-color:lightgrey
+    }
+    h1{
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    .card{
+      margin-top: 30%;
+      margin-left: 2%;
+      width: 330px;
+      height: 360px;
+      background-color:white;
+      border-radius: 20px;
+      text-align: center;
+      
+    }
+    .username input{
+      margin-top: 20px;
+      border: none;
+      outline: none;
+      font-size: 22px;
+      border-bottom: 2px solid gray;
+    }
+.password input {
+      margin-top: 40px;
+      border: none;
+      outline: none;
+      font-size: 22px;
+      border-bottom: 2px solid gray;
+    }
+    .forgot{
+      margin-top: 20px;
+      font-size: 20px;
+      color:blue;
+    }
+span{
+  color: blue;
+}
+    .login-btn{
+      margin-top: 20px;
+      font-size: 20px;
+      width: 150px;
+      height: 35px;
+      border-radius: 10px;
+      border: none;
+      background-color: lightgreen;
+      
+    }
+button{
+  outline: none;
+}
+    .sign-up{
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  </style>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action= "https://formspree.io/f/xayzdlrb" method="POST">
+  <div class="card">
+  <div class="username">
+    <h1>Login</h1>
+    <input type="username"  name="username"  placeholder="username">
+  </div>
+  <div class="password">
+   <input type="password"  name="password" placeholder="password"> 
+  </div>
+  <div class="forgot">
+    forgot password? 
+   <div class="btn">
+     <input type="submit" value="login" class="login-btn">
+     
+   </div> 
+  </div>
+  <div class="sign-up">
+  not a member? <span>sign up</span>
+  </div>
+    
+  </div>
+</form>
+</body>
+</html>
